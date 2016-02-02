@@ -9,7 +9,7 @@ var starField = function(options) {
 
     var geometry = new THREE.Geometry();
 
-    for (i=0; i<stars; i++) {
+    for (var i=0; i<stars; i++) {
         var vertex = new THREE.Vector3();
         vertex.x = Math.random() * 1000 - 500;
         vertex.y = Math.random() * 1000 - 500;
