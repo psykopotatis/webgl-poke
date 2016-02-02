@@ -51,7 +51,7 @@ var Poke = Class.extend({
         this.ASPECT = this.WIDTH / this.HEIGHT;
         this.NEAR = 0.1;
         this.FAR = 10000;
-        this.CAMERA_POSITION = 200;
+        this.CAMERA_POSITION = 120;
         this.TILE_SIZE = 4;
 
         this.camera =
@@ -62,8 +62,8 @@ var Poke = Class.extend({
                 this.FAR);
 
         // the camera starts at 0,0,0 so pull it back
-        this.camera.position.x = -30;
-        this.camera.position.y = -30;
+        this.camera.position.x = -100;
+        this.camera.position.y = 35;
         this.camera.position.z = this.CAMERA_POSITION;
         this.camera.lookAt(this.scene.position);  // Look at scene bit from side
         this.scene.add(this.camera);
@@ -72,8 +72,8 @@ var Poke = Class.extend({
     createLights: function() {
         var pointLight = new THREE.PointLight(0xFFFFFF);
         pointLight.name = "save-me";
-        pointLight.position.x = 10;
-        pointLight.position.y = 50;
+        pointLight.position.x = -125;
+        pointLight.position.y = 129;
         pointLight.position.z = 130;
         this.scene.add(pointLight);
 
