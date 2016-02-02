@@ -1,0 +1,6 @@
+venv
+*.pyc
+staticfiles
+.idea
+.DS_Store
+node_modules

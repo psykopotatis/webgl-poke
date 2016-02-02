@@ -1,3 +1,2 @@
-webgl-poke
-
-Random pokemon in webgl 3d
+# webgl-poke
+<p>Random pokemon in WebGL.</p>
