@@ -26,7 +26,7 @@ var PokeScreen = Class.extend({
         var that = this;
         var randomPokeId = Math.round(Math.random() * this.MAX_POKE);
 
-        $.get('/js/poke/' + randomPokeId + '.json', function(data) {
+        $.get('/static/js/poke/' + randomPokeId + '.json', function(data) {
             that.pixels = data.pixels;
             that.drawPoke();
         });

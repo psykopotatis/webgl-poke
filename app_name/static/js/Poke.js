@@ -189,7 +189,7 @@ var Poke = Class.extend({
     },
 
     updateCameraInfo: function() {
-        $('#info').html('Move camera with mouse, zoom with mouse wheel.<br/>Camera position: (' + this.camera.position.x.toFixed(2) + ', ' + this.camera.position.y.toFixed(2) + ')<br/>Zoom: ' + this.camera.position.z.toFixed(2));
+        $('#info').html('Hey! Move camera with mouse, zoom with mouse wheel. Camera position: (' + this.camera.position.x.toFixed(2) + ', ' + this.camera.position.y.toFixed(2) + ') Zoom: ' + this.camera.position.z.toFixed(2));
     },
 
     render: function() {
