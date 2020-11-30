@@ -20,7 +20,7 @@ var starField = function(options) {
     var material = new THREE.ParticleBasicMaterial({
         color: '0xffffff',
         map: THREE.ImageUtils.loadTexture(
-                '/static/images/star.png'
+                '/images/star.png'
                 ),
         depthTest:false,
         blending: THREE.AdditiveBlending,
